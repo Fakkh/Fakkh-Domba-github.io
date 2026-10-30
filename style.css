@@ -1,0 +1,266 @@
+     /
+
+/* Header & Navigasi */* Reset dasar dan Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    : 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+header {font-family: Arial, sans-serif;
+    margin
+    background-color: #2e7d32;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #a5d6a7;
+}
+
+
+/* Reset dasar dan Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header & Navigasi */
+header {
+    background-color: #2e7d32;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #a5d6a7;
+}
+
+/* Hero Section (Home) */
+.hero {
+    background-color: #e8f5e9;
+    text-align: center;
+    padding: 60px 20px;
+    border-bottom: 2px solid #c8e6c9;
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Tombol */
+.btn {
+    display: inline-block;
+    background-color: #2e7d32;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #1b5e20;
+}
+
+/* Section Umum */
+.section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.alt-bg {
+    background-color: #ffffff;
+    border-top: 1px solid #ddd;
+}
+
+/* Promo Section */
+.promo-section {
+    background-color: #fff3e0;
+    padding: 30px 20px;
+    text-align: center;
+    border-top: 2px solid #ffe0b2;
+    border-bottom: 2px solid #ffe0b2;
+}
+
+.promo-card {
+    background-color: #ffffff;
+    border: 2px dashed #ef6c00;
+    padding: 20px;
+    max-width: 600px;
+    margin: 15px auto 0 auto;
+    border-radius: 8px;
+}
+
+.promo-card h3 {
+    color: #e65100;
+    margin-top: 0;
+}
+
+/* Grid Produk & Kartu */
+.produk-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+/* Styling Gambar Produk */
+.produk-img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.harga {
+    font-weight: bold;
+    color: #2e7d32;
+    font-size: 18px;
+}
+
+/* Form Kontak */
+.form-kontak {
+    max-width: 500px;
+    margin: 20px auto 0 auto;
+    text-align: left;
+}
+
+.form-kontak label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-kontak input, 
+.form-kontak textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: inherit;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    outline: none;
+}
+
+.form-kontak input:focus, 
+.form-kontak textarea:focus {
+    border-color: #2e7d32;
+    box-shadow: 0 0 5px rgba(46, 125, 50, 0.4);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 5px 0;
+}

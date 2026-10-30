@@ -1,0 +1,102 @@
+      <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peternakan Domba Zaki - XI 8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigasi -->
+    <header>
+        <div class="logo">
+            <h1>Domba Jaya</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#produk">Produk</a></li>
+                <li><a href="#promo">Promo Special</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h2>Selamat Datang di Peternakan Domba Jaya</h2>
+            <p>Menyediakan domba berkualitas, sehat, dan terawat untuk kebutuhan aqiqah dan qurban.</p>
+            <a href="#produk" class="btn">Lihat Produk</a>
+        </div>
+    </section>
+
+    <!-- Promo Idul Adha -->
+    <section id="promo" class="promo-section">
+        <h2>Promo Spesial Idul Adha</h2>
+        <div class="promo-card">
+            <h3>Promo Beli 1 Gratis 1!</h3>
+            <p>Setiap pembelian 1 ekor domba tipe A, dapatkan gratis 1 ekor domba cempe (anak domba/domba standar). Promo terbatas menjelang Idul Adha!</p>
+        </div>
+    </section>
+
+    <!-- Tentang Section -->
+    <section id="tentang" class="section">
+        <h2>Tentang Kami</h2>
+        <p>Peternakan Domba Jaya berdiri sejak tahun 2020. Kami berfokus pada pemeliharaan domba secara alami dengan pakan berkualitas tinggi. Semua domba kami dipastikan sehat dan telah melewati pemeriksaan kesehatan secara berkala.</p>
+    </section>
+
+    <!-- Produk Section -->
+    <section id="produk" class="section">
+        <h2>Produk Domba Kami</h2>
+        <div class="produk-grid">
+            <div class="card">
+                <img src="https://juaraagroniaga.co.id/wp-content/uploads/2023/12/d84833.jpg" alt="Domba Super" class="produk-img">
+                <h3>Domba Super (Tipe A)</h3>
+                <p>Berat: 45 - 50 kg</p>
+                <p class="harga">Rp 4.500.000</p>
+            </div>
+            <div class="card">
+                <img src="https://www.segardmasurel.com/wp-content/uploads/laine-de-merinos-1024x1024.png" alt="Domba Sedang" class="produk-img">
+                <h3>Domba Sedang (Tipe B)</h3>
+                <p>Berat: 35 - 40 kg</p>
+                <p class="harga">Rp 3.200.000</p>
+            </div>
+            <div class="card">
+                <img src="https://www.dombadorsip.com/image-upload/news-6-Ciri-Ciri-Domba-Dorper-untuk-Memilih-Domba-Terbaik-36.jpg" alt="Domba Standar" class="produk-img">
+                <h3>Domba Standar (Tipe C)</h3>
+                <p>Berat: 25 - 30 kg</p>
+                <p class="harga">Rp 2.300.000</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak Section -->
+    <section id="kontak" class="section alt-bg">
+        <h2>Hubungi Kami</h2>
+        <p>Silakan isi formulir di bawah ini untuk pemesanan atau pertanyaan lebih lanjut.</p>
+        
+        <form class="form-kontak" onsubmit="event.preventDefault(); alert('Pesan berhasil terkirim!');">
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" placeholder="Masukkan nama anda" required>
+
+            <label for="telepon">Nomor Telepon / WA:</label>
+            <input type="tel" id="telepon" placeholder="Masukkan nomor telepon" required>
+
+            <label for="pesan">Pesan / Jenis Domba:</label>
+            <textarea id="pesan" rows="4" placeholder="Tuliskan pesan atau pesanan anda" required></textarea>
+
+            <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Tugas Pemrograman Web - Zaki Muhammad Gunawan (XI 8)</p>
+        <p>&copy; 2026 Peternakan Domba Jaya</p>
+    </footer>
+
+</body>
+</html>
